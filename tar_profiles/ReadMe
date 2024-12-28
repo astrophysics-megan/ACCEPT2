@@ -1,1 +1,4 @@
 Gzipped tar ball of profiles
+made with command tar -cvzf acc2deproj_profiles.tar.gz -T sharetarlist
+where sharetarlist is the list of the directory names (=ACCEPT2.0 names) inside the files are deproj_profiles.dat, deproj_profiles_interp.dat, and kT_Z_norm.dat
+The files used in the ACCEPT2.0 fit were deproj_profiles.dat where available, deproj_profiles_interp.dat when no deproj_profiles.dat file found; kT_Z_norm_deproj.dat available for some sources
