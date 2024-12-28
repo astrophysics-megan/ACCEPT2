@@ -1,3 +1,3 @@
 # ACCEPT2
 
-I plan to host data tables for ACCEPT2.0 (and potential updates) here
+ACCEPT2.0 X-ray cluster and group projected and deprojected radial profiles, global X-ray properties, and quantitative morphologies based on Chandra archival data.
