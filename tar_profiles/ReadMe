@@ -1,4 +1,11 @@
-Gzipped tar ball of profiles
-made with command tar -cvzf acc2deproj_profiles.tar.gz -T sharetarlist
+Gzipped tar ball of profiles (text .dat files), organized into sub directories with the same name as the ACCEPT2.0 name + analysis/spectral. Units for the properties are in the header but they are
+Rmin, Rmax in arcseconds, kT and kT_err in keV, electron density n_e and ne_err in (cm^-3), entropy K and K_err in KeV/cm^2, thermal energy  in ergs, pressure in dyn cm^-2, and cooling time in years, 
+with the corresponding errors on those quantities.
+The default cosmology was H0=71 km/s/Mpc, Omega_M=0.27, Omega_Lambda=0.73, relevant for the derived properties using electron density.
+
+acc2deproj_profiles.tar.gz was created with command tar -cvzf acc2deproj_profiles.tar.gz -T sharetarlist
 where sharetarlist is the list of the directory names (=ACCEPT2.0 names) inside the files are deproj_profiles.dat, deproj_profiles_interp.dat, and kT_Z_norm.dat
-The files used in the ACCEPT2.0 fit were deproj_profiles.dat where available, deproj_profiles_interp.dat when no deproj_profiles.dat file found; kT_Z_norm_deproj.dat available for some sources
+The data points used in the ACCEPT2.0 entropy fits were deproj_profiles.dat where available, deproj_profiles_interp.dat when no deproj_profiles.dat file found; kT_Z_norm_deproj.dat available for some but not all sources
+
+For convenience, the profiles of projected temperature and metallicity are also provided in acc2prof_profiles, which includes 3 header lines with column labels and units. Rmin and Rmax are in arcseconds, kT and kT_err (positive and
+negative) are in keV. Z +/- Z_err are in solar units (see paper for details). The quoted C-stat, degrees of freedom and reduced C-stat are also included, by annulus.
